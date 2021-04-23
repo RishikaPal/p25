@@ -7,10 +7,7 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
 
-function preload () {
-  paperObject.loadImage("paper.png");
-  basket.loadImage("dustbin.png")
-}
+
 
 function setup() {
   createCanvas(1600, 700); 
