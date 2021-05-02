@@ -25,6 +25,11 @@ function setup() {
   
 }
 
+function preload() {
+  this.image=loadImage("paper.png");
+  this.image=loadImage("dustbin.png");
+}
+
 
 function draw() {
   rectMode(CENTER);

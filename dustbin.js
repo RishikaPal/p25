@@ -12,6 +12,7 @@
      Matter.Body.setAngle(this.rightWallBody, -1 * this.angle); World.add(world, this.bottomBody) 
      World.add(world, this.leftWallBody) 
      World.add(world, this.rightWallBody); 
+     
     } display() 
     { var posBottom = this.bottomBody.position;
        var posLeft = this.leftWallBody.position; var posRight = this.rightWallBody.position; push()
@@ -21,6 +22,7 @@
          stroke(255) 
          rotate(this.angle) 
          rect(0, 0, this.wallThickness, this.dustbinHeight); pop() 
+         
   push() 
   rectMode(CENTER) 
   angleMode(RADIANS) 
